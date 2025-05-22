@@ -1,0 +1,23 @@
+# Core data stack
+pandas
+numpy
+
+# Modeling
+scikit-learn
+lightgbm
+xgboost
+catboost
+
+# Imbalanced data handling
+imbalanced-learn
+
+# Hyperparameter tuning
+optuna
+
+# Utilities
+joblib
+matplotlib
+seaborn
+plotly
+missingno
+kagglehub

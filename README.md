@@ -61,18 +61,18 @@ All of the heavy lifting is performed in the three Jupyter notebooks under `note
    ```bash
    jupyter lab notebooks/Telecom_Customer_Churn_Prediction_Exploratory_Data_Analysis.ipynb
    ```
-   - Ingests raw data, audits quality, and produces univariate/multivariate visualizations.
+   Ingests raw data, audits quality, and produces univariate/multivariate visualizations.
 
 2. **Feature Engineering**  
    ```bash
    jupyter lab notebooks/Telecom_Customer_Churn_Prediction_Feature_Engineering.ipynb
    ```
-   - Cleans missing values, encodes categoricals, creates tenure buckets, service-count, revenue-per-service, and a rich set of interaction terms.
+   Cleans missing values, encodes categoricals, creates tenure buckets, service-count, revenue-per-service, and a rich set of interaction terms.
 
 3. **Model Training & Evaluation**  
    ```bash
    jupyter lab notebooks/Telecom_Customer_Churn_Prediction_Model_Training.ipynb
    ```
-   - Applies SMOTE, tunes six models (LightGBM, XGBoost, CatBoost, RandomForest, ExtraTrees, LogisticRegression) with Optuna, compares validation/test performance, and saves the best XGBoost model to `models/xgboost_churn.pkl`.
+   Applies SMOTE, tunes six models (LightGBM, XGBoost, CatBoost, RandomForest, ExtraTrees, LogisticRegression) with Optuna, compares validation/test performance, and saves the best XGBoost model to `models/xgboost_churn.pkl`.
 
 ---
